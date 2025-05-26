@@ -16,11 +16,11 @@ cd <YOUR_REPO>
 
 ### Create & activate a virtual environment to work with (back end)
 
-macOS / Linux
+### macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-Windows (PowerShell)
+### Windows (PowerShell)
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
@@ -35,10 +35,10 @@ pip install fastapi uvicorn openai python-multipart pydantic
 
 Set your OpenAI API key
 
-macOS / Linux
+### macOS / Linux
 export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 
-Windows (PowerShell)
+### Windows (PowerShell)
 $env:OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 
 Run the service
