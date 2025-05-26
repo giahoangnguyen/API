@@ -1,4 +1,4 @@
-# API Grading Project
+# API CV Matching Project
 ## Getting Started
 
 ### Prerequisites 
@@ -9,7 +9,7 @@ Git installed
 (Optional) Windows users: Git Bash or WSL recommended
 A valid OpenAI API key
 
-Clone the repo
+### Clone the repo
 
 git clone https://github.com/<YOUR_ORG>/<YOUR_REPO>.git
 cd <YOUR_REPO>
@@ -24,7 +24,7 @@ source .venv/bin/activate
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-Install Python dependencies
+### Install Python dependencies
 
 If the repo includes a requirements.txt:
 pip install --upgrade pip
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Otherwise install directly:
 pip install fastapi uvicorn openai python-multipart pydantic
 
-Set your OpenAI API key
+### Set your OpenAI API key
 
 ### macOS / Linux
 export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
@@ -41,5 +41,5 @@ export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 ### Windows (PowerShell)
 $env:OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 
-Run the service
+### Run the service
 uvicorn resume_matcher:app --reload --host 0.0.0.0 --port 8000
