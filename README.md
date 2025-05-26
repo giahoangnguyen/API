@@ -1,5 +1,7 @@
-Getting Started
-Prerequisites
+# API Grading Project
+## Getting Started
+
+### Prerequisites 
 Before you begin, make sure you have the following installed:
 
 Python 3.10+ installed
@@ -12,9 +14,7 @@ Clone the repo
 git clone https://github.com/<YOUR_ORG>/<YOUR_REPO>.git
 cd <YOUR_REPO>
 
-
-
-Create & activate a virtual environment to work with (back end)
+### Create & activate a virtual environment to work with (back end)
 
 macOS / Linux
 python3 -m venv .venv
