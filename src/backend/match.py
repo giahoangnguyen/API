@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-openai_client = OpenAI(api_key="your-api-key")
+openai_client = OpenAI(api_key="OPENAI_API_KEY")
 
 # Request and Response Models
 class MatchRequest(BaseModel):
