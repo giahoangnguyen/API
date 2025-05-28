@@ -42,4 +42,4 @@ export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 $env:OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxx"
 
 ### Run the service
-uvicorn resume_matcher:app --reload --host 0.0.0.0 --port 8000
+uvicorn match:app --reload --host 0.0.0.0 --port 8000
